@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt,dutch]{article}
+\documentclass[a4paper,12pt,english]{article}
 \usepackage{glossaries}
 \usepackage[T1]{fontenc}
 \usepackage{babel}
@@ -108,8 +108,8 @@
     %issn=false, werkt niet
     language=american
 ]{biblatex}
-\addbibresource{information/Bronnen.bib}
-\DefineBibliographyStrings{dutch}{
+\addbibresource{information/Sources.bib}
+\DefineBibliographyStrings{english}{
     backrefpage = {blz.},
     backrefpages = {blz.},
 }
@@ -135,10 +135,17 @@
 \begin{document}
 \include{main/front}
 \maketitle
-\include{information/Versie Historie}
-\include{information/Begrippenlijst}
-\include{information/Figurenlijst}
-\include{main/inhouds}
-% \include{chapters/11_Verdeling}
-\include{information/Bronnelijst}
+\include{information/VersionHistory}
+\include{information/Glossary}
+\include{information/ListOfFigures}
+\include{main/TableOfContents}
+\include{chapters/The_Assignment}
+\include{chapters/Project_Activity}
+\include{chapters/Project_Boundaries}
+\include{chapters/Costs_and_revenues}
+\include{chapters/Organisation}
+\include{chapters/Planning}
+\include{chapters/Product}
+\include{chapters/Quality}
+\include{information/Sources}
 \end{document}

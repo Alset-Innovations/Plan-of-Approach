@@ -1,1 +1,24 @@
 \section{Project Boundaries}
+The \textbf{PROJE4} course is set to go on for 20 weeks, in these 20 weeks \textbf{Alset Innovations} is tasked with designing a motor driver for a 78W motor. To complete this task the project de designer has create a set of requirement which must be met.
+
+\begin{itemize}
+    \item The motor controller must be able to continuously turn a 24 V, 78 W
+    BLDC motor in a closed loop configuration using hall sensor feedback.
+    \item  The design must use one of the following two micro-controllers in order to
+    generate the motor control signals.
+    \begin{itemize}
+        \item RP2040 
+        \item STM32F103C8T6 
+    \end{itemize}
+    \item The hall sensor signals must be processed in the micro-controller. It
+    is not permitted to use an advanced motor driver IC which handles the
+    hall-signals internally.
+    \item Discrete transistors must be used to control the three phases of the motor. Any additional components such as gate drivers can be implemented using integrated circuits.
+    \item The final product must be on a custom PCB that has been designed and assembled by the student group themselves. 
+    \item The controller must measure the current delivered to the motor and be able to send it to the user interface. 
+    \item The user interface must provide a control input (throttle) that allows the speed of the motor to be controlled, and must also be able to display the measured speed (rpm) and current.
+\end{itemize}
+
+These requirements are the minimum requirements necessary to complete the \textbf{PROJE4} course with a passing grade. In order to excel \textbf{Alset Innovations} must improve the design according to their own ideas. This can be anything in the theme of this project as long as it stays within the budget.
+
+In summary \textbf{Alset Innovations} will have to design a motor driver schematic and PCB, an user interface to control the motor driver and to excell must come up with their own ideas to improve the design.
